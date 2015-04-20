@@ -6,15 +6,7 @@ module Ruboty
       on /kendama/, name: 'kendama', description: 'Search kendama trick from youtube.'
 
       def kendama(message)
-        if url = search
-          message.reply(url)
-        end
-      end
-
-      private
-
-      def search
-        Ruboty::Kendama::Actions::Kendama.new.get
+        Ruboty::Kendama::Actions::Kendama.new.get(message)
       end
 
     end
