@@ -1,6 +1,6 @@
 # Ruboty::Kendama
 
-TODO: Write a gem description
+Search kendama trick from youtube.
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+@ruboty kendama - Search a kendama trick randomly from Youtube.
+```
 
 ## Contributing
 
