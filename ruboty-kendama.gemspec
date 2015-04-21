@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Ruboty::Kendama::VERSION
   spec.authors       = ["Taga Yasunori"]
   spec.email         = ["yasukun.taga@gmail.com"]
-  spec.summary       = %q{Write a short summary. Required.}
-  spec.description   = %q{Write a longer description. Optional.}
+  spec.summary       = %q{Search kendama trick from youtube.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
